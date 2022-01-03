@@ -84,3 +84,29 @@ Esc鍵退出編輯模式
 
 
 電腦系統用bytes，最小的計量單位是 bits (1 byte = 8 bits)
+
+
+
+
+
+gzip
+
+
+壓縮：gzip FileName
+
+解壓縮：
+gunzip FileName.gz
+
+gzip -d FileName.gz
+
+xz
+
+壓縮：xz -z FileName
+
+解壓縮：xz -d FileName.xz
+
+tar.gz
+
+壓縮：tar -zcvf FileName.tar.gz DirName
+
+解壓縮：tar -zxvf FileName.tar.gz
