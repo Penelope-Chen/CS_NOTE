@@ -110,3 +110,6 @@ tar.gz
 壓縮：tar -zcvf FileName.tar.gz DirName
 
 解壓縮：tar -zxvf FileName.tar.gz
+
+
+![image](https://user-images.githubusercontent.com/91451706/147905899-2e0af9ed-d0fa-4e9f-b80f-4d377d8c514a.png)
