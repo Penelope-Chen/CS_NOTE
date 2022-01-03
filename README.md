@@ -85,12 +85,26 @@ Esc鍵退出編輯模式
 ![image](https://user-images.githubusercontent.com/91451706/147905969-08e76c8f-ed5b-4c4a-a62d-559da107ce41.png)
 
 ## 文字處理
+### join
 join [option] filename1 filename2 → 將兩個文件中，指定欄位內容相同的行連接起來
 
+-1 → 連接filename1指定的欄位
+
+-2 → 連接filename2指定的欄位
+
+-t → 使用欄位的分隔符號
+
+-i → 忽略大小寫
+
+-o → 按指定的格式顯示結果
+
+-a → 除顯示結果，原檔案的其他行也顯示
+
+### tr
 tr [option] set1 set2 → 替換或刪除操作的字串轉換
-
+### uniq
 uniq [option] filename → 將重複文字刪除
-
+### sort
 sort [option] filename → 處理各種文字資料的排序問題
-
+### diff
 diff [option] filename1 filename2 → 比較文件的內容，特別是兩版本不同的同份文件
